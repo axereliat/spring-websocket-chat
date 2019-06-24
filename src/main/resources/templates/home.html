@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Websockets Demo</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="jumbotron" id="messages">
+</div>
+<form id="messageForm">
+    <div class="input-group input-group-md mb-3">
+        <input type="text" id="message" class="form-control" name="message" placeholder="Enter your message">
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button>
+        </div>
+    </div>
+</form>
+</body>
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/websocket.js"></script>
+</html>
